@@ -1,8 +1,21 @@
+var environment = require("environment"),
+    isDocument = require("is_document");
+
+
+var ownerDocument = environment.document;
+
+
 module.exports = getWindow;
 
 
 function getWindow(document) {
     var scriptElement, parentElement;
+
+    if (isDocument(document)) {
+        document = document;
+    } else {
+        document = ownerDocument;
+    }
 
     if (document.parentWindow) {
         return document.parentWindow;
