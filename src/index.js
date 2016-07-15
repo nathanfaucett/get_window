@@ -1,5 +1,5 @@
-var environment = require("environment"),
-    isDocument = require("is_document");
+var environment = require("@nathanfaucett/environment"),
+    isDocument = require("@nathanfaucett/is_document");
 
 
 var ownerDocument = environment.document;

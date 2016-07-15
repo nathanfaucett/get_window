@@ -1,5 +1,5 @@
 {
-  "name": "get_window",
+  "name": "@nathanfaucett/get_window",
   "version": "0.0.1",
   "description": "get window from a document for the browser and node.js",
   "repository": {
@@ -15,12 +15,12 @@
   "license": "MIT",
   "readmeFilename": "README.md",
   "devDependencies": {
-    "grunt": "^0.4.5",
-    "grunt-contrib-jshint": "^0.11.3",
-    "grunt-jsbeautifier": "^0.2.10"
+    "grunt": "^1.0.1",
+    "grunt-contrib-jshint": "^1.0.0",
+    "grunt-jsbeautifier": "^0.2.13"
   },
   "dependencies": {
-    "environment": "git://github.com/nathanfaucett/environment.git",
-    "is_document": "git://github.com/nathanfaucett/is_document.git"
+    "@nathanfaucett/environment": "^0.0.1",
+    "@nathanfaucett/is_document": "^0.0.1"
   }
 }
