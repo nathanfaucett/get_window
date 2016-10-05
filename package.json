@@ -1,6 +1,6 @@
 {
   "name": "@nathanfaucett/get_window",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "get window from a document for the browser and node.js",
   "repository": {
     "type": "git",
@@ -20,7 +20,7 @@
     "grunt-jsbeautifier": "^0.2.13"
   },
   "dependencies": {
-    "@nathanfaucett/environment": "^0.0.1",
+    "@nathanfaucett/environment": "^0.0.2",
     "@nathanfaucett/is_document": "^0.0.1"
   }
 }
